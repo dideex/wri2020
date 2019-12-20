@@ -1,3 +1,49 @@
-.hui {
-  background-color: #fff;
+:root {
+  -xxxs: 3px;
+  -xxs: 6px;
+  -xs: 9px;
+  -s: 15px;
+  -m: 18px;
+  -l: 24px;
+  -xl: 27px;
+  -xxl: 36px;
+  -xxxl: 45px;
+  -xxxxl: 51px;
+  -xxxxxl: 72px;
+}
+
+body {
+  margin: 0;
+}
+body * {
+  box-sizing: border-box;
+}
+.header {
+  max-width: 1280px;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 179px;
+  height: 34px;
+  background-color: black;
+}
+.onoffswitch {
+  display: flex;
+  justify-content: flex-start;
+  width: 97px;
+  height: 32px;
+  padding: 2px;
+  border: 2px solid black;
+}
+.onoffswitch__button {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  margin-left: auto;
+}
+.onoffswitch_checked .onoffswitch__button {
+  margin-left: 0;
 }
