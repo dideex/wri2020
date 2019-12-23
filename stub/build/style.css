@@ -1,23 +1,111 @@
-:root {
-  -xxxs: 3px;
-  -xxs: 6px;
-  -xs: 9px;
-  -s: 15px;
-  -m: 18px;
-  -l: 24px;
-  -xl: 27px;
-  -xxl: 36px;
-  -xxxl: 45px;
-  -xxxxl: 51px;
-  -xxxxxl: 72px;
-}
-
 body {
   margin: 0;
 }
 body * {
   box-sizing: border-box;
 }
+
+/*  COLORS  */
+/*   START  */
+
+.theme_color_project-default {
+  /* Значения фонов блоков: */
+  --color-default: #ffffff;
+  --color-accent: #ffcc00;
+  --color-bordered: #000000;
+
+  /* Значения состояний текста: */
+  --font-color-main: #000000;
+  --font-color-secondary: rgba(0, 0, 0, 0.6);
+  --font-color-advanced: rgba(0, 0, 0, 0.3);
+  --font-color-link: #0077ff;
+}
+.theme_color_project-brand {
+  /* Значения фонов блоков: */
+  --color-default: #0077ff;
+  --color-accent: #ffffff;
+  --color-bordered: #ffffff;
+
+  /* Значения состояний текста: */
+  --font-color-main: #ffffff;
+  --font-color-secondary: rgba(255, 255, 255, 0.6);
+  --font-color-advanced: rgba(255, 255, 255, 0.3);
+  --font-color-link: #ffffff;
+}
+.theme_color_project-inverse {
+  /* Значения фонов блоков: */
+  --color-default: #000000;
+  --color-accent: #ffffff;
+  --color-bordered: #ffffff;
+
+  /* Значения состояний текста: */
+  --font-color-main: #ffffff;
+  --font-color-secondary: rgba(255, 255, 255, 0.6);
+  --font-color-advanced: rgba(255, 255, 255, 0.3);
+  --font-color-link: #0077ff;
+}
+.theme_color_project-warning {
+  /* Значения фонов блоков: */
+  --color-default: #ff3333;
+  --color-accent: #ffffff;
+  --color-bordered: #ff3333;
+
+  /* Значения состояний текста: */
+  --font-color-main: #ffffff;
+  --font-color-secondary: rgba(255, 255, 255, 0.6);
+  --font-color-advanced: rgba(255, 255, 255, 0.3);
+  --font-color-link: #fff;
+}
+
+/*  COLORS  */
+/*   END    */
+
+/*   SIZES  */
+/*   START  */
+
+.theme_size_default {
+  /* Значения размеров высоты текста (так как в задании текст в виде линий): */
+  --font-size-s: 8px;
+  --font-size-m: 10px;
+  --font-size-l: 11px;
+  --font-size-xl: 13px;
+  --font-size-xxl: 16px;
+
+  /* Значения межстрочных интервалов: */
+  --line-height-s: 21px;
+  --line-height-m: 25px;
+  --line-height-l: 28px;
+  --line-height-xl: 34px;
+  --line-height-xxl: 38px;
+}
+
+.theme_space_default {
+  /* Пример размеров текста: */
+  --space-xxxs: 3px;
+  --space-xxs: 6px;
+  --space-xs: 9px;
+  --space-s: 15px;
+  --space-m: 18px;
+  --space-l: 24px;
+  --space-xl: 27px;
+  --space-xxl: 36px;
+  --space-xxxl: 45px;
+  --space-xxxxl: 51px;
+  --space-xxxxxl: 72px;
+}
+
+/*   SIZES  */
+/*    END   */
+
+.theme_gap_small {
+  --gap: var(--space-xl);
+}
+@media (max-width: 1024px) {
+  .theme_gap_small {
+    --gap: var(--space-s);
+  }
+}
+
 .header {
   max-width: 1280px;
 }
