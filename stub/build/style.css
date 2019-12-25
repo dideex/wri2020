@@ -175,3 +175,111 @@ body * {
 .grid__fraction_m-col_8 {}
 /*  GRID  */
 /*  END   */
+
+/*  CARD  */
+/*  START */
+.card {}
+.card_border_all {}
+.card_view_default {}
+.card__content {}
+.card__footer {}
+.card__content_distribute_center {}
+.card__content_vertical-align_center {}
+.card__content_space-a_m {}
+.card__content_space-a_l {}
+.card__content_space-a_xl {}
+.card__content_space-a_xxl {}
+.card__content_space-a_xxxl {}
+.card__footer_distribute_center {}
+.card__footer_distribute_right {}
+.card__footer_distribute_between {}
+.card__footer_vertical-align_center {}
+.card__footer_vertical-align_top {}
+.card__footer_vertical-align_bottom {}
+.card__footer_space-a_m {}
+.card__footer_space-a_l {}
+.card__footer_space-a_xl {}
+.card__footer_space-a_xxl {}
+/*  CARD  */
+/*  END   */
+
+/*  FORM  */
+/*  START */
+.form {}
+.form_border_all {}
+.form_view_default {}
+.form__item {}
+.form__item_border_bottom {}
+.form__item_distribute_between {}
+.form__item_vertical-align_center {}
+.form__item_intent-b_xxxs {}
+.form__item_intent-b_xxs {}
+.form__item_intent-b_s {}
+.form__item_intent-b_m {}
+.form__item_intent-b_l {}
+.form__item_intent-b_xl {}
+.form__item_intent-b_xxl {}
+.form__item_intent-b_xxxl {}
+.form__item_intent-b_xxxxl {}
+.form__item_space-h_xxxs {}
+.form__item_space-h_xxs {}
+.form__item_space-h_s {}
+.form__item_space-h_m {}
+.form__item_space-h_l {}
+.form__item_space-h_xl {}
+.form__item_space-h_xxl {}
+.form__item_space-h_xxxl {}
+.form__item_space-h_xxxxl {}
+.form__item_space-v_xxxs {}
+.form__item_space-v_xxs {}
+.form__item_space-v_s {}
+.form__item_space-v_m {}
+.form__item_space-v_l {}
+.form__item_space-v_xl {}
+.form__item_space-v_xxl {}
+.form__item_space-v_xxxl {}
+.form__item_space-v_xxxxl {}
+.form__label {}
+.form__label_width_default {}
+.form__control {}
+.form__control_width_default {}
+/*  FORM  */
+/*  END   */
+
+/*  INFORMER  */
+/*   START    */
+.informer {}
+.informer_border_all {}
+.informer_view_default {}
+.informer__content_distribute_default {}
+.informer__content_distribute_between {}
+.informer__content_distribute_center {}
+.informer__content_space-a-xl {}
+.informer__content_space-a-xxl {}
+.informer__action_distribute_default {}
+.informer__action_distribute_between {}
+.informer__action_distribute_center {}
+.informer__action_space-a-xl {}
+.informer__action_space-a-xxl {}
+/*  INFORMER  */
+/*    END     */
+
+/*  LIST   */
+/*   START */
+.list {}
+.list_border_all {}
+.list_view_default {}
+.list__item_border_bottom {}
+.list__item_border_top {}
+.list__item_distribute_between {}
+.list__item_vertical-align_center {}
+.list__item_intend-t_m {}
+.list__item_intend-b_m {}
+.list__item_intend-b_s {}
+.list__item_intend-b_l {}
+.list__item_intend-b_xl {}
+.list__item_space-b_s {}
+.list__item_space-a_m {}
+/*  LIST   */
+/*   END   */
+
